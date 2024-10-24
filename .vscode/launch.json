@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "main.test",
+            "projectName": "Algoritmo_De_Agrupamiento_94cffb"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "vmArgs": "-cp ./lib/*:./src",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
